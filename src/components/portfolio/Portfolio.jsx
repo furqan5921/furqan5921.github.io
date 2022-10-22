@@ -13,10 +13,10 @@ const data = [
   {
     id:2,
     image:dermstore,
-    title:"Dermstore App Clone",
+    title:"Yoox App Clone",
     github:"https://github.com/TusharKadam7671/foregoing-tin-1857",
-    demo:"https://dermstore-project-clone.netlify.app/",
-    stack:["HTML","CSS","Javascript"]
+    demo:"https://sayanyoox.netlify.app/",
+    stack:["HTML","CSS","Javascript","React","Vite JS"]
   },
   {
     id:3,

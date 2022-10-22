@@ -38,6 +38,7 @@
  @media (max-width: 600px) {
     .container.testimonials__container {
         width: var(--container-width-sm);
+        height: 30rem;
     }
 
     .client__review {
