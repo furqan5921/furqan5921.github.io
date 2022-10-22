@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import dermstore from "../../assets/p1.png";
+import Yoox from "../../assets/yoox.png";
+import tripsvilla from "../../assets/tripsvilla.png"
 const data = [
   {
     id:1,
@@ -8,23 +10,23 @@ const data = [
     title:"Dermstore App Clone",
     github:"https://github.com/TusharKadam7671/foregoing-tin-1857",
     demo:"https://dermstore-project-clone.netlify.app/",
-    stack:["HTML","CSS","Javascript"]
+    stack:["HTML","CSS","Javascript","Bootstrap","Heroku Server"]
   },
   {
     id:2,
-    image:dermstore,
+    image:Yoox,
     title:"Yoox App Clone",
-    github:"https://github.com/TusharKadam7671/foregoing-tin-1857",
+    github:"https://github.com/furqan5921/-youthful-glass-8497",
     demo:"https://sayanyoox.netlify.app/",
-    stack:["HTML","CSS","Javascript","React","Vite JS"]
+    stack:["HTML","CSS","Javascript","React","Chakra UI"]
   },
   {
     id:3,
-    image:dermstore,
+    image:tripsvilla,
     title:"Dermstore App Clone",
     github:"https://github.com/TusharKadam7671/foregoing-tin-1857",
-    demo:"https://dermstore-project-clone.netlify.app/",
-    stack:["HTML","CSS","Javascript"]
+    demo:"https://github.com/gitsid1611/uninterested-ocean-1026",
+    stack:["HTML","CSS","Javascript","Bootstrap","Heroku Server"]
   }
   
 ]
