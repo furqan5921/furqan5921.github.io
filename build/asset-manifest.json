@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58410730.css",
+    "main.js": "/static/js/main.24118bc7.js",
+    "static/media/yoox.png": "/static/media/yoox.6ecd0a3d701e6a2e0c5a.png",
+    "static/media/tripsvilla.png": "/static/media/tripsvilla.58ca4b2e1d8ac0353c2a.png",
+    "static/media/p1.png": "/static/media/p1.8fb6c7694388019b5bec.png",
+    "static/media/metwo.jpeg": "/static/media/metwo.0bdc01df931280345c46.jpeg",
+    "static/media/Mohammad_Furqan_Resume.pdf": "/static/media/Mohammad_Furqan_Resume.666b6cb083d2e3915afc.pdf",
+    "static/media/mydp.jpeg": "/static/media/mydp.d3d42accb827c64ffc92.jpeg",
+    "static/media/pratap.jpeg": "/static/media/pratap.4a7d28002fd812749c2d.jpeg",
+    "static/media/muskan.jpeg": "/static/media/muskan.8c08fe52b35623de5a33.jpeg",
+    "static/media/abuzer.jpeg": "/static/media/abuzer.0664e82d3478e743db00.jpeg",
+    "index.html": "/index.html",
+    "main.58410730.css.map": "/static/css/main.58410730.css.map",
+    "main.24118bc7.js.map": "/static/js/main.24118bc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58410730.css",
+    "static/js/main.24118bc7.js"
+  ]
+}

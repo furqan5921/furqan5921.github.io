@@ -12,9 +12,9 @@ import 'swiper/css';
 
 import 'swiper/css/pagination';
 import AVTR1 from "../../assets/pratap.jpeg"
-import AVTR2 from "../../assets/avatar2.jpg"
-import AVTR3 from "../../assets/avatar3.jpg"
-import AVTR4 from "../../assets/avatar4.jpg"
+import AVTR2 from "../../assets/abuzer.jpeg"
+import AVTR3 from "../../assets/muskan.jpeg"
+
 const data = [
   {
     avatar:AVTR1,
@@ -23,17 +23,13 @@ const data = [
 },
 {
   avatar:AVTR2,
-  name:"Someone",
-  review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim nemo nobis quos nihil itaque. Tempore est ullam sapiente nemo, ipsa incidunt. Quos molestias tenetur, neque inventore est dolore totam dolor?"
+  name:"Abuzer Haseeb",
+  review: "A great developer with very strong problem-solving skills. A fantastic person to work with, and is not only a multi-skilled and insightful colleague but also an inspiring strategist."
 },{
   avatar:AVTR3,
-  name:"Someone",
-  review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim nemo nobis quos nihil itaque. Tempore est ullam sapiente nemo, ipsa incidunt. Quos molestias tenetur, neque inventore est dolore totam dolor?"
-},{
-  avatar:AVTR4,
-  name:"Someone",
-  review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim nemo nobis quos nihil itaque. Tempore est ullam sapiente nemo, ipsa incidunt. Quos molestias tenetur, neque inventore est dolore totam dolor?"
-},
+  name:"Muskan Tamrakar",
+  review: "It's been a while since I know Furqan, he is full of passion, dedication, and hard work. As I observed him, he is surely a good problem solver and has leadership qualities too. I have seen him being serious about the deadlines and writing clean code."
+}
 ]
 const Testimonial = () => {
   return (

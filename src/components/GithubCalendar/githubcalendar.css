@@ -1,0 +1,15 @@
+.github__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+ gap: 1rem;
+}
+/* .container {
+    width: 100%;
+} */
+.githubcalendar{
+  /* border: 1px solid teal; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

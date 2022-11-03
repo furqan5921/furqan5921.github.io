@@ -9,8 +9,7 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-    
-    
+  
 }
 
 
@@ -87,17 +86,22 @@ padding: 5rem 1.5rem 1.5rem 1.5rem;
 /*========================MEDIA QUERIES (MEDIUM DEVICES)=====================*/
 @media (max-width: 1024px){
 header {
-    height: 120vh;
+    height: 100vh;
+    
 }
 }
 /*========================MEDIA QUERIES (SMALL DEVICES)=====================*/
 @media  (max-width: 600px) {
     header {
         height: 125vh;
+       
     } 
     .header__socials {
         display: none;
+       
+        
     }
+    
     .scroll__down {
         display: none;
     }
