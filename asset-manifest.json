@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.2be234b3.css",
-    "main.js": "/static/js/main.3def199b.js",
+    "main.css": "/static/css/main.598614b3.css",
+    "main.js": "/static/js/main.9e24994b.js",
     "static/media/yoox.png": "/static/media/yoox.6ecd0a3d701e6a2e0c5a.png",
     "static/media/tripsvilla.png": "/static/media/tripsvilla.58ca4b2e1d8ac0353c2a.png",
     "static/media/p1.png": "/static/media/p1.8fb6c7694388019b5bec.png",
     "static/media/Bontime.png": "/static/media/Bontime.1f5b9ab1e35d8534b5bb.png",
     "static/media/fitfinity.png": "/static/media/fitfinity.dbca1e96b306822cde91.png",
-    "static/media/metwo.jpeg": "/static/media/metwo.0bdc01df931280345c46.jpeg",
     "static/media/Mohammad-Furqan-Resume.pdf": "/static/media/Mohammad-Furqan-Resume.e1c544c06d55bd21d0e5.pdf",
     "static/media/shivani.jpeg": "/static/media/shivani.10c0c005d1c3ec00e5b6.jpeg",
     "static/media/mydp.jpeg": "/static/media/mydp.d3d42accb827c64ffc92.jpeg",
@@ -15,11 +14,11 @@
     "static/media/muskan.jpeg": "/static/media/muskan.8c08fe52b35623de5a33.jpeg",
     "static/media/abuzer.jpeg": "/static/media/abuzer.0664e82d3478e743db00.jpeg",
     "index.html": "/index.html",
-    "main.2be234b3.css.map": "/static/css/main.2be234b3.css.map",
-    "main.3def199b.js.map": "/static/js/main.3def199b.js.map"
+    "main.598614b3.css.map": "/static/css/main.598614b3.css.map",
+    "main.9e24994b.js.map": "/static/js/main.9e24994b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2be234b3.css",
-    "static/js/main.3def199b.js"
+    "static/css/main.598614b3.css",
+    "static/js/main.9e24994b.js"
   ]
 }
