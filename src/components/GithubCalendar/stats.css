@@ -1,0 +1,28 @@
+.stats__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    height: auto;
+    /* width: 10%; */
+    margin: auto;
+    
+    
+}
+.container_card{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+
+
+/*========================MEDIA QUERIES (SMALL DEVICES)=====================*/
+@media (max-width: 600px) {
+    .container_card {
+        flex-direction: column;
+      }
+    
+
+}
