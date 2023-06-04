@@ -26,7 +26,7 @@ export function Home() {
           margin={"auto"}
           mt="50px"
         >
-          <VStack alignItems={"flex-start"} w={"50%"}>
+          <VStack alignItems={"flex-start"} >
             <Text fontSize={{ base: "md", sm: "2xl", md: "4xl" }}>
               Hi{" "}
               <span className="wave" role="img" aria-labelledby="wave">
@@ -64,17 +64,18 @@ export function Home() {
               <Link to="contact">
                 <Button
                   fontSize={["12px", "12px", "18px"]}
-                  width={["60px", "60px", "100px"]}
+
                   color={"black"}
                   bgColor="blue.300"
                   _hover={"none"}
                 >
-                  Hire Me
+                  Contact Me
                 </Button>
               </Link>
               <Button
-                width={["80px", "60px", "100px"]}
+  
                 fontSize={["12px", "12px", "18px"]}
+                // color={"orange.400"}
                 onClick={() => {
                   return window.open(
                     "https://drive.google.com/file/d/1msezNuGAJ1h7tM6-faNZDFuuvP6nAoVT/view?usp=sharing",
@@ -92,13 +93,13 @@ export function Home() {
                   href={require("../files/Mohammad-Furqan-Resume.pdf")}
                   download
                 >
-                  <FaCloudDownloadAlt />
+                  <FaCloudDownloadAlt  />
                 </a>
               </Button>
             </HStack>
           </VStack>
 
-          <Box>
+          <Box >
             <Image
               src={require("../files/profile.jpg")}
               borderRadius="200px"

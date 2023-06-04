@@ -1,8 +1,18 @@
 import { Box, SimpleGrid, Text, useColorMode, VStack } from "@chakra-ui/react";
 import React from "react";
 import {
-  SiChakraui, SiCss3, SiExpress, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiPostman, SiReact,
-  SiRedux, SiTypescript
+  SiChakraui,
+  SiCss3,
+  SiExpress,
+  SiHtml5,
+  SiJavascript,
+  SiMongodb,
+  SiNodedotjs,
+  SiPostman,
+  SiReact,
+  SiRedux,
+  SiTypescript,
+  SiTailwindcss,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 const SkillCard = () => {
@@ -161,7 +171,7 @@ const SkillCard = () => {
         </Box>
 
         <Box
-          _hover={{ color: "#DE4C36" }}
+          _hover={{ color: "#3077c6" }}
           boxShadow="base"
           p="6"
           rounded="md"
@@ -230,6 +240,21 @@ const SkillCard = () => {
           <VStack alignItems={"center"}>
             <SiChakraui className="dev" fontSize="4rem" />
             <Text mt="15px">Chakra UI</Text>
+          </VStack>
+        </Box>
+        <Box
+          _hover={{ color: "#37bcf8" }}
+          boxShadow="base"
+          p="6"
+          rounded="md"
+          bg={bgColor}
+          border={bc}
+          className="dev"
+          data-aos="zoom-in-up"
+        >
+          <VStack alignItems={"center"}>
+            <SiTailwindcss className="dev" fontSize="4rem" />
+            <Text mt="15px">Tailwind CSS</Text>
           </VStack>
         </Box>
       </SimpleGrid>

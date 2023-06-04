@@ -3,12 +3,23 @@ import { ProjectCard } from "./ProjectCard";
 
 const data = [
   {
+    title: "Snappy",
+    desc: "Snappy a robust and scalable real-time chat application using Socket.io. Designed and implemented the application from concept to deployment, showcasing my proficiency in full-stack development and real-time communication protocols",
+    techStack:
+      "React | Socket.io | Axios | Nodejs | Expressjs | MongoDB | Styled-components",
+    feature:
+      " Multi-platform Support, User Authentication & Authorization, Select Avatars, Real Time Notifications, Real-Time Message Delivery, Emojis Support.",
+    img: "snappy.png",
+    clone: "https://github.com/furqan5921/snappy_app",
+    deploy: "https://snappy-pied.vercel.app",
+  },
+  {
     title: "Fitfinity",
     desc: "Fitfinity nutrition tracking app provides data of your health.",
     techStack:
       "React | Redux | Axios | Nodejs | Expressjs | MongoDB | Chakra-UI",
     feature:
-      " Fully E-Commerce website with lots of feature Sign up, Sign In, Sign Out, Navbar with Drop-down Menu,  All the static Page, product page",
+      " Dashboard, Login and Signup Authorization with otp During signup with nodemailer",
     img: "fitfinity.png",
     clone: "https://github.com/furqan5921/Fitfinity",
     deploy: "https://fitfinity.vercel.app/",
@@ -19,7 +30,7 @@ const data = [
     desc: "  Bontime is a freelancing management app. It offers freelance proposals and contracts",
     techStack:
       "HTML  |  ChakraUI  |  JavaScript |  ReactJs  |  Nodejs  |  Express |  MongoDB ",
-    feature: "Sign In, Sign Up and Dynamic Pages",
+    feature: "Sign In, Sign Up, Create Invoices and Dynamic Pages",
     img: "Bontime.png",
     clone: "https://github.com/ajay329/frightened-snake-4355",
 
@@ -31,7 +42,7 @@ const data = [
     desc: "YOOX is the world’s leading online store for fashion, design and art that lasts a lifetime and beyond",
     techStack: "HTML | CSS | Javascript | ReactJs | Chakra-UI",
     feature:
-      " E-Commerce website for food ordering, Sign In, Sign Out, Navbar with Drop-down Menu, Static Page, Button and Payment Page",
+      "E-Commerce website for clothing addToCart functionality maintained cart checout pages",
     img: "yoox.png",
     clone: "https://github.com/furqan5921/-youthful-glass-8497",
 
@@ -40,24 +51,14 @@ const data = [
   {
     title: "Dermstore App Clone",
 
-    desc: "This is a clone of Apple TV. Website was built with all features.",
+    desc: "Dermstore is a skin care and beauty e-commerce site in the United States.",
 
     techStack: "HTML | CSS | Javascript | Bootstrap | Heroku ",
     feature:
-      " Dermstore is a skin care and beauty e-commerce site in the United States.",
+      "E-Commerce website for Beauty-products addToCart functionality maintained cart checout pages",
     img: "p1.png",
     clone: "https://github.com/TusharKadam7671/foregoing-tin-1857",
     deploy: "https://dermstore-project-clone.netlify.app/",
-  },
-  {
-    title: "TripsVilla App Clone",
-    desc: "TripsVilla is a one-stop portal to book Villa, Vacation Rental apartments, Holiday homes, and Homestays",
-    techStack: "HTML | CSS | Javascript | VanillaJs",
-    feature:
-      "Sign up, Sign In, Sign Out, Navbar with Drop-down Menu, Dynamic Page, Button and Payment Page",
-    img: "tripsvilla.png",
-    clone: "https://github.com/gitsid1611/uninterested-ocean-1026",
-    deploy: "https://inquisitive-mooncake-83e1c3.netlify.app/",
   },
 ];
 
