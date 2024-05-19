@@ -22,7 +22,7 @@ const links = [
   },
   {
     to: "skill",
-    page: "Skill",
+    page: "Skills",
   },
   {
     to: "project",
@@ -41,7 +41,6 @@ export function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
   const NavBgColor = useColorModeValue("gray.50", "gray.900");
- 
 
   return (
     <>

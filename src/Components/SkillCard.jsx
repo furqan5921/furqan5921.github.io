@@ -13,14 +13,35 @@ import {
   SiRedux,
   SiTypescript,
   SiTailwindcss,
+  SiPrisma,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+
+const skills = [
+  { icon: TbBrandNextjs, color: "#430098", name: "NextJS" },
+  { icon: SiPrisma, color: "#37bcf8", name: "Prisma" },
+  { icon: SiHtml5, color: "#E44D26", name: "HTML" },
+  { icon: SiCss3, color: "#264DE4", name: "CSS" },
+  { icon: SiJavascript, color: "#F7DF1E", name: "JavaScript" },
+  { icon: SiReact, color: "#53C1DE", name: "React" },
+  { icon: SiRedux, color: "#764ABC", name: "Redux" },
+  { icon: SiExpress, color: "#732FF9", name: "Express JS" },
+  { icon: SiMongodb, color: "black", name: "MongoDB" },
+  { icon: SiNodedotjs, color: "#99424F", name: "Node JS" },
+  { icon: SiTypescript, color: "#3077c6", name: "TypeScript" },
+  { icon: SiPostman, color: "#DE4C36", name: "Postman" },
+  { icon: SiChakraui, color: "#59C9C8", name: "Chakra UI" },
+  { icon: SiTailwindcss, color: "#37bcf8", name: "Tailwind CSS" },
+];
+
 const SkillCard = () => {
   const { colorMode } = useColorMode();
-  if (colorMode === "dark") {
-    var bc = "2px solid rgb(150, 150, 226)";
-    var bgColor = "#222e3d";
-  }
+  const bgColor = colorMode === "dark" ? "#222e3d" : "white";
+  const bc =
+    colorMode === "dark"
+      ? "2px solid rgb(150, 150, 226)"
+      : "2px solid lightgray";
+
   return (
     <Box>
       <SimpleGrid
@@ -32,231 +53,24 @@ const SkillCard = () => {
         color="#00B9E8"
         gap={"50px"}
       >
-        <Box
-          _hover={{ color: "#E44D26" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiHtml5 className="dev" fontSize="4rem" />
-            <Text mt="15px">Html</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#264DE4" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiCss3 className="dev" fontSize="4rem" />
-            <Text mt="15px">Css</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#F7DF1E" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            {" "}
-            <SiJavascript className="dev" fontSize="4rem" />
-            <Text mt="15px">JavaScript</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#53C1DE" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiReact className="dev" fontSize="4rem" />
-            <Text mt="15px">React</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#764ABC" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            {" "}
-            <SiRedux className="dev" fontSize="4rem" />
-            <Text mt="15px">Redux</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#732FF9" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiExpress className="dev" fontSize="4rem" />
-            <Text mt="15px">Express JS</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "black" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiMongodb className="dev" fontSize="4rem" />
-            <Text mt="15px">Mongo DB</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#99424F" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiNodedotjs className="dev" fontSize="4rem" />
-            <Text mt="15px">Node JS</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#430098" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <TbBrandNextjs className="dev" fontSize="4rem" />
-            <Text mt="15px">NextJS</Text>
-          </VStack>
-        </Box>
-
-        <Box
-          _hover={{ color: "#3077c6" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiTypescript className="dev" fontSize="4rem" />
-            <Text mt="15px">Typescript</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#DE4C36" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            {" "}
-            <SiPostman className="dev" fontSize="4rem" />
-            <Text mt="15px">Postman</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#DE4C36" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth="0"
-              viewBox="0 0 24 24"
-              height="4rem"
-              width="4rem"
-              className="dev"
-            >
-              <path d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113z"></path>
-            </svg>
-            <Text mt="15px">Npm</Text>
-          </VStack>
-        </Box>
-
-        <Box
-          _hover={{ color: "#59C9C8" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiChakraui className="dev" fontSize="4rem" />
-            <Text mt="15px">Chakra UI</Text>
-          </VStack>
-        </Box>
-        <Box
-          _hover={{ color: "#37bcf8" }}
-          boxShadow="base"
-          p="6"
-          rounded="md"
-          bg={bgColor}
-          border={bc}
-          className="dev"
-          data-aos="zoom-in-up"
-        >
-          <VStack alignItems={"center"}>
-            <SiTailwindcss className="dev" fontSize="4rem" />
-            <Text mt="15px">Tailwind CSS</Text>
-          </VStack>
-        </Box>
+        {skills.map((skill, index) => (
+          <Box
+            key={index}
+            _hover={{ color: skill.color }}
+            boxShadow="base"
+            p="6"
+            rounded="md"
+            bg={bgColor}
+            border={bc}
+            className="dev"
+            data-aos="zoom-in-up"
+          >
+            <VStack alignItems={"center"}>
+              <skill.icon className="dev" fontSize="4rem" />
+              <Text mt="15px">{skill.name}</Text>
+            </VStack>
+          </Box>
+        ))}
       </SimpleGrid>
     </Box>
   );

@@ -6,9 +6,11 @@ import {
   Text,
   Heading,
   Button,
+  Flex,
 } from "@chakra-ui/react";
 
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import { TbCertificate } from "react-icons/tb";
 
 import { BiShowAlt } from "react-icons/bi";
 
@@ -71,6 +73,14 @@ export function Home() {
                   Contact Me
                 </Button>
               </Link>
+              <Button>
+                <a href={require("../files/certificate.pdf")} download>
+                  <Flex gap={1} justify={"center"} align={"center"}>
+                    <Text>Internship</Text>
+                    <TbCertificate />
+                  </Flex>
+                </a>
+              </Button>
               <Button
                 fontSize={["12px", "12px", "18px"]}
                 // color={"orange.400"}
@@ -86,6 +96,7 @@ export function Home() {
                   <BiShowAlt />
                 </span>
               </Button>
+
               <Button>
                 <a
                   href={require("../files/Mohammad-Furqan-Resume.pdf")}
