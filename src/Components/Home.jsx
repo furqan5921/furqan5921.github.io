@@ -26,7 +26,7 @@ export function Home() {
           margin={"auto"}
           mt="50px"
         >
-          <VStack alignItems={"flex-start"} >
+          <VStack alignItems={"flex-start"}>
             <Text fontSize={{ base: "md", sm: "2xl", md: "4xl" }}>
               Hi{" "}
               <span className="wave" role="img" aria-labelledby="wave">
@@ -55,16 +55,15 @@ export function Home() {
               fontSize={{ base: "10px", sm: "15px", md: "sm" }}
               style={{ marginTop: "0px" }}
             >
-              With a solid grasp of NodeJS, ReactJS, MongoDB,Typescript and
-              NextJS, I'm always excited to dive into projects that involve
-              creative DOM manipulation.
+              With a solid grasp of Next.js 13 + Prisma ORM and the MERN stack,
+              I'm always excited to dive into projects that involve creative DOM
+              manipulation.
             </Text>
 
             <HStack>
               <Link to="contact">
                 <Button
                   fontSize={["12px", "12px", "18px"]}
-
                   color={"black"}
                   bgColor="blue.300"
                   _hover={"none"}
@@ -73,7 +72,6 @@ export function Home() {
                 </Button>
               </Link>
               <Button
-  
                 fontSize={["12px", "12px", "18px"]}
                 // color={"orange.400"}
                 onClick={() => {
@@ -93,13 +91,13 @@ export function Home() {
                   href={require("../files/Mohammad-Furqan-Resume.pdf")}
                   download
                 >
-                  <FaCloudDownloadAlt  />
+                  <FaCloudDownloadAlt />
                 </a>
               </Button>
             </HStack>
           </VStack>
 
-          <Box >
+          <Box>
             <Image
               src={require("../files/profile.jpg")}
               borderRadius="200px"
