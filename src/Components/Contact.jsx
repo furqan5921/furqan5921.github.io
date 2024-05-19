@@ -1,12 +1,19 @@
 import {
-  Box, Button, Flex, FormLabel, HStack, Input, Link, Text,
-  Textarea, useColorMode, VStack
+  Box,
+  Button,
+  Flex,
+  FormLabel,
+  HStack,
+  Input,
+  Link,
+  Text,
+  Textarea,
+  useColorMode,
+  VStack,
 } from "@chakra-ui/react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
-import {
-  AiFillGithub, AiFillLinkedin
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
@@ -16,7 +23,7 @@ export function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
     emailjs
       .sendForm(
         "service_xlweux7",
@@ -90,10 +97,7 @@ export function Contact() {
             </Box>
             <HStack gap={"10px"}>
               <HiLocationMarker />
-              <Text textAlign={"left"}>
-                Bhopal, Madhya Pradesh
-                
-              </Text>
+              <Text textAlign={"left"}>Bhopal, Madhya Pradesh</Text>
             </HStack>
             <HStack gap={"10px"}>
               <BsFillTelephoneFill />
@@ -117,7 +121,6 @@ export function Contact() {
                   <AiFillGithub size="25px" />
                 </Link>
               </Box>
-            
             </HStack>
           </VStack>
         </Flex>
@@ -144,12 +147,14 @@ export function Contact() {
             />
           )}
         </Box>
-        <Box data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">
+        <Box
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <Text>
-            Copyright ©2023 All rights reserved | This template is made By {" "}
+            Copyright ©2024 All rights reserved | This template is made By{" "}
             <Link href="https://github.com/furqan5921" target={"_blank"}>
               Mohammad Furqan
             </Link>
