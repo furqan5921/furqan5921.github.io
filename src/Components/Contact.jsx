@@ -9,6 +9,7 @@ import {
   Text,
   Textarea,
   useColorMode,
+  useToast,
   VStack,
 } from "@chakra-ui/react";
 import emailjs from "@emailjs/browser";
@@ -20,26 +21,36 @@ import { MdEmail } from "react-icons/md";
 
 export function Contact() {
   const { colorMode } = useColorMode();
+  const toast = useToast();
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_xlweux7",
-        "template_1b13euq",
-        form.current,
-        "BQjt4DP3z8PNCZFzZ"
-      )
-      .then(
-        (result) => {
-          console.log(result);
-        },
-        (error) => {
-          console.log(error);
-        }
-      );
-    e.target.reset();
+    try {
+      emailjs
+        .sendForm(
+          "service_xlweux7",
+          "template_1b13euq",
+          form.current,
+          "BQjt4DP3z8PNCZFzZ"
+        )
+        .then(
+          (result) => {
+            console.log(result);
+          },
+          (error) => {
+            console.log(error);
+          }
+        );
+      e.target.reset();
+      toast({
+        Title: "Your message has been sent successfully.",
+        Description: "Please wait for a response; it may take some time.",
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (error) {
+      console.log(error.message);
+    }
   };
   return (
     <>

@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Text, Button, Flex } from "@chakra-ui/react";
+import { Box, Button, Flex, HStack, Image, Text } from "@chakra-ui/react";
 import "aos/dist/aos.css";
 export function ProjectCard({ data }) {
   return (
@@ -40,9 +40,11 @@ export function ProjectCard({ data }) {
             {data.feature}{" "}
           </Text>
           <HStack gap={"30px"}>
-            <Button onClick={() => window.open(data.clone, "_blank")}>
-              Github 
-            </Button>
+            {data.clone && (
+              <Button onClick={() => window.open(data.clone, "_blank")}>
+                Github
+              </Button>
+            )}
             <Button onClick={() => window.open(data.deploy, "_blank")}>
               Deployed
             </Button>

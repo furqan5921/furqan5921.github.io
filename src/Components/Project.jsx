@@ -1,7 +1,15 @@
 import { Heading } from "@chakra-ui/react";
 import { ProjectCard } from "./ProjectCard";
-
 const data = [
+  {
+    title: "Evvent As",
+    desc: "Worked as a part-time developer at a Norwegian-based company. Collaborated with Evvent As to design and implement database schemas and built dashboards.",
+    techStack: "Nextjs | Prisma ORM | Shadcn | TailwindCss | TRPC",
+    feature:
+      "Collaborated with Evvent As to design and implement database schemas using Prisma, ensuring efficient data management and scalability. Built dynamic dashboards for data visualization using Shadcn, integrating with Prisma for data querying and management. Implemented responsive UI components with Tailwind CSS to enhance user experience.",
+    img: "evvent.png",
+    deploy: "https://evvent-marketplace-version1.vercel.app",
+  },
   {
     title: "Snappy",
     desc: "Snappy a robust and scalable real-time chat application using Socket.io. Designed and implemented the application from concept to deployment, showcasing my proficiency in full-stack development and real-time communication protocols",
@@ -45,14 +53,11 @@ const data = [
       "E-Commerce website for clothing addToCart functionality maintained cart checout pages",
     img: "yoox.png",
     clone: "https://github.com/furqan5921/-youthful-glass-8497",
-
     deploy: "https://sayanyoox.netlify.app/",
   },
   {
     title: "Dermstore App Clone",
-
     desc: "Dermstore is a skin care and beauty e-commerce site in the United States.",
-
     techStack: "HTML | CSS | Javascript | Bootstrap | Heroku ",
     feature:
       "E-Commerce website for Beauty-products addToCart functionality maintained cart checout pages",
