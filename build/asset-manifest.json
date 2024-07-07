@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.addaeef7.css",
-    "main.js": "/static/js/main.a170402e.js",
-    "static/js/787.1315a2c5.chunk.js": "/static/js/787.1315a2c5.chunk.js",
+    "main.css": "/static/css/main.578124d1.css",
+    "main.js": "/static/js/main.84d45e89.js",
+    "static/js/787.a6fc7912.chunk.js": "/static/js/787.a6fc7912.chunk.js",
     "static/media/yoox.png": "/static/media/yoox.6ecd0a3d701e6a2e0c5a.png",
     "static/media/tripsvilla.png": "/static/media/tripsvilla.58ca4b2e1d8ac0353c2a.png",
     "static/media/p1.png": "/static/media/p1.8fb6c7694388019b5bec.png",
+    "static/media/evvent.png": "/static/media/evvent.7821d63dee35cfdde326.png",
     "static/media/Bontime.png": "/static/media/Bontime.1f5b9ab1e35d8534b5bb.png",
     "static/media/fitfinity.png": "/static/media/fitfinity.dbca1e96b306822cde91.png",
     "static/media/snappy.png": "/static/media/snappy.7f83ce69e13e300cb690.png",
     "static/media/profile.jpg": "/static/media/profile.0a7638980723e7661a4f.jpg",
-    "static/media/Mohammad-Furqan-Resume.pdf": "/static/media/Mohammad-Furqan-Resume.9910df30c07c0611ee7d.pdf",
+    "static/media/Mohammad-Furqan-Resume.pdf": "/static/media/Mohammad-Furqan-Resume.8dec8fa1851166fbd416.pdf",
     "static/media/certificate.pdf": "/static/media/certificate.6f1b9f1e2767f37d1eb8.pdf",
     "static/media/logo-2.png": "/static/media/logo-2.8089c17d614a7940ff02.png",
     "static/media/logo-3.png": "/static/media/logo-3.e4bde453cf4beb5f7e20.png",
     "index.html": "/index.html",
-    "main.addaeef7.css.map": "/static/css/main.addaeef7.css.map",
-    "main.a170402e.js.map": "/static/js/main.a170402e.js.map",
-    "787.1315a2c5.chunk.js.map": "/static/js/787.1315a2c5.chunk.js.map"
+    "main.578124d1.css.map": "/static/css/main.578124d1.css.map",
+    "main.84d45e89.js.map": "/static/js/main.84d45e89.js.map",
+    "787.a6fc7912.chunk.js.map": "/static/js/787.a6fc7912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.addaeef7.css",
-    "static/js/main.a170402e.js"
+    "static/css/main.578124d1.css",
+    "static/js/main.84d45e89.js"
   ]
 }

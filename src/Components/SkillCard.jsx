@@ -9,11 +9,11 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiPostman,
+  SiPrisma,
   SiReact,
   SiRedux,
-  SiTypescript,
   SiTailwindcss,
-  SiPrisma,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
