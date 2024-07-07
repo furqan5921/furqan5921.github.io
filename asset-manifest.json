@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.578124d1.css",
-    "main.js": "/static/js/main.84d45e89.js",
+    "main.js": "/static/js/main.d367f364.js",
     "static/js/787.a6fc7912.chunk.js": "/static/js/787.a6fc7912.chunk.js",
     "static/media/yoox.png": "/static/media/yoox.6ecd0a3d701e6a2e0c5a.png",
     "static/media/tripsvilla.png": "/static/media/tripsvilla.58ca4b2e1d8ac0353c2a.png",
@@ -17,11 +17,11 @@
     "static/media/logo-3.png": "/static/media/logo-3.e4bde453cf4beb5f7e20.png",
     "index.html": "/index.html",
     "main.578124d1.css.map": "/static/css/main.578124d1.css.map",
-    "main.84d45e89.js.map": "/static/js/main.84d45e89.js.map",
+    "main.d367f364.js.map": "/static/js/main.d367f364.js.map",
     "787.a6fc7912.chunk.js.map": "/static/js/787.a6fc7912.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.578124d1.css",
-    "static/js/main.84d45e89.js"
+    "static/js/main.d367f364.js"
   ]
 }
