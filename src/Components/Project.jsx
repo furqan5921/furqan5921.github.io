@@ -44,27 +44,6 @@ const data = [
 
     deploy: "https://bontime.vercel.app/",
   },
-
-  {
-    title: "Yoox App Clone",
-    desc: "YOOX is the world’s leading online store for fashion, design and art that lasts a lifetime and beyond",
-    techStack: "HTML | CSS | Javascript | ReactJs | Chakra-UI",
-    feature:
-      "E-Commerce website for clothing addToCart functionality maintained cart checout pages",
-    img: "yoox.png",
-    clone: "https://github.com/furqan5921/-youthful-glass-8497",
-    deploy: "https://sayanyoox.netlify.app/",
-  },
-  {
-    title: "Dermstore App Clone",
-    desc: "Dermstore is a skin care and beauty e-commerce site in the United States.",
-    techStack: "HTML | CSS | Javascript | Bootstrap | Heroku ",
-    feature:
-      "E-Commerce website for Beauty-products addToCart functionality maintained cart checout pages",
-    img: "p1.png",
-    clone: "https://github.com/TusharKadam7671/foregoing-tin-1857",
-    deploy: "https://dermstore-project-clone.netlify.app/",
-  },
 ];
 
 export function Project() {
