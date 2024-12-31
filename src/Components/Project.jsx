@@ -3,10 +3,10 @@ import { ProjectCard } from "./ProjectCard";
 const data = [
   {
     title: "Evvent As",
-    desc: "Worked as a part-time developer at a Norwegian-based company. Collaborated with Evvent As to design and implement database schemas and built dashboards.",
+    desc: "Worked as a full-time developer at a Norwegian-based company. Collaborated with Evvent As to design and implement database schemas and built dashboards.",
     techStack: "Nextjs | Prisma ORM | Shadcn | TailwindCss | TRPC",
     feature:
-      "Collaborated with Evvent As to design and implement database schemas using Prisma, ensuring efficient data management and scalability. Built dynamic dashboards for data visualization using Shadcn, integrating with Prisma for data querying and management. Implemented responsive UI components with Tailwind CSS to enhance user experience.",
+      "Collaborated with Evvent As to design and implement database schemas using Prisma, ensuring efficient data management and scalability. Built dynamic dashboards for data visualization using Shadcn, integrating with Prisma for data querying and management. Implemented responsive UI components with Tailwind CSS to enhance user experience. Enhanced the listings and single listings pages by implementing Server-Side Rendering (SSR), ensuring improved performance, SEO optimization, and dynamic data fetching.",
     img: "evvent.png",
     deploy: "https://evvent-marketplace-version1.vercel.app",
   },

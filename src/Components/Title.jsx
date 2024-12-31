@@ -6,7 +6,7 @@ export function Title() {
     <Typewriter
       options={{
         strings: [
-          "Experienced Next.js 13 + Prisma ORM developer",
+          "Experienced Next.js 14 + Prisma ORM developer",
           "Versatile MERN Stack Developer",
           "Creative Problem Solver in Software Development",
           "Full Stack Developer proficient frontend and backend",

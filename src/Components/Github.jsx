@@ -18,7 +18,12 @@ export const GitHub = (props) => {
   const [theme1, setTheme1] = useState({});
 
   // --------------- (Animation)--------------
-
+  const fromDate = new Date(
+    new Date().setFullYear(new Date().getFullYear() - 1)
+  )
+    .toISOString()
+    .split("T")[0]; // One year ago
+  const toDate = new Date().toISOString().split("T")[0];
   useEffect(() => {
     AOS.init({ offset: 300, duration: 1000 });
   }, []);
@@ -102,9 +107,7 @@ export const GitHub = (props) => {
           boxShadow:
             "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
         }}
-        src={
-          "https://github-readme-activity-graph.cyclic.app/graph?username=furqan5921&theme=github"
-        }
+        src={`https://github-readme-activity-graph.vercel.app/graph?username=furqan5921&theme=github&area=true&area_color=blue&hide_border=true&from=${fromDate}&to=${toDate}`}
       />
 
       <Box data-aos="zoom-in" w={["80%", "80%", "80%", "70%"]} m="auto" mt="5">

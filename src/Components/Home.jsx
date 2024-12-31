@@ -1,16 +1,14 @@
 import {
   Box,
+  Button,
+  Heading,
   HStack,
-  VStack,
   Image,
   Text,
-  Heading,
-  Button,
-  Flex,
+  VStack,
 } from "@chakra-ui/react";
 
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import { TbCertificate } from "react-icons/tb";
 
 import { BiShowAlt } from "react-icons/bi";
 
@@ -57,7 +55,7 @@ export function Home() {
               fontSize={{ base: "10px", sm: "15px", md: "sm" }}
               style={{ marginTop: "0px" }}
             >
-              With a solid grasp of Next.js 13 + Prisma ORM and the MERN stack,
+              With a solid grasp of Next.js 14 + Prisma ORM and the MERN stack,
               I'm always excited to dive into projects that involve creative DOM
               manipulation.
             </Text>
@@ -73,14 +71,14 @@ export function Home() {
                   Contact Me
                 </Button>
               </Link>
-              <Button>
+              {/* <Button>
                 <a href={require("../files/certificate.pdf")} download>
                   <Flex gap={1} justify={"center"} align={"center"}>
                     <Text>Internship</Text>
                     <TbCertificate />
                   </Flex>
                 </a>
-              </Button>
+              </Button> */}
               <Button
                 fontSize={["12px", "12px", "18px"]}
                 // color={"orange.400"}
